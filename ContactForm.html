@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossossssssrigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c6bfb09bc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="website icon" href="/Logo/ZycloneLogo.jpg">
+    <title>Zyclone Inc.</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <a href="#" class="navbar_logo">Zyclone Inc.</a>
+        <div class="navbar_toogle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar_menu">
+            <a href="Index.html" class="navbar_link">Home</a>
+            <a href="#" class="navbar_link">Servicies</a>
+            <a href="#" class="navbar_link">About Us</a>
+            <a href="#" class="navbar_link">Contact Form</a>
+            <a href="#" class="navbar_link">Support</a>
+        </div>
+    </nav>
+    <!-- Contact Form -->
+    <div class="contact">
+        <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2 class="animate-form">Get In Touch</h2>
+                <hr class="animate-form">
+            </div>
+            <input type="hidden" name="access_key" value="50f323b0-6659-4ee4-9f81-6a0b1b3f140b">
+            <input type="text" name="name" placeholder="Your Name." class="contact-inputs animate-form" required>
+            <input type="email" name="email" placeholder="Your Email." class="contact-inputs animate-form" required>
+            <textarea name="message" placeholder="Your Message." class="contact-inputs animate-form" required></textarea>
+            <button type="submit" class="animate-form">Submit</button>
+        </form>
+        </div>
+    </div>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .contact{
+            font-family: 'Outfit';
+            background: linear-gradient(black, black);
+        }
+
+        .contact-container{
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .contact-left-title{
+            color: white;
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 25px
+        }
+
+        .contact-left-title hr{
+            height: 5px;
+            background-color: white;
+        }
+
+        .contact-inputs{
+            width: 400px;
+            height: 50px;
+            border: none;
+            outline: none;
+            padding-left: 25px;
+            font-weight: 500;
+            color: #666;
+            border-radius: 20px;
+        }
+
+        .contact-left textarea{
+            height: 140px;
+            padding-top: 15px;
+            border-radius: 20px;
+        }
+
+        .contact-inputs:focus{
+            border: 2px solid black;
+        }
+
+        .contact::placeholder{
+            color: white;
+        }
+
+        .contact-left button{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            pad: 15px 30px;
+            font-size: 16px;
+            color: #fff;
+            gap: 10px;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(270deg, #ff994f, #fa6d86);
+            cursor: pointer;
+        }
+
+
+    </style>
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer_wrapper">
+            <div class="footer_desc">
+                <h1>Zyclone Inc.</h1>
+                <p>If you want you can contact us.</p>
+                <p>Contact Form is right here!</p>
+                <a href="ContactForm.html" class="contact_email">Contact Us</a>
+            </div>
+            <div class="footer_links">
+                <h2 class="footer_title">Contact Us</h2>
+                <a href="ContactForm.html" class="footer_link">Contact</a>
+                <a href="" class="footer_link">Support</a>
+                <a href="" class="footer_link">Sponsorships</a>
+            </div>
+        </div>
+        <div class="footer_wrapper">
+            <div class="footer_links">
+                <h2 class="footer_title">Membership</h2>
+                <a class="footer_link" href="/">Pricing</a>
+                <a class="footer_link" href="/">Plans</a>
+                <a class="footer_link" href="/">FAQ</a>
+            </div>
+            <div class="footer_links">
+                <h2 class="footer_title">Social Media</h2>
+                <a class="footer_link" href="">Instagram</a>
+                <a class="footer_link" href="">TikTok</a>
+                <a class="footer_link" href="">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <script src="Server.js"></script>
+    <script src="Application.Js"></script>
+</body> 
+</html>
